@@ -1,0 +1,123 @@
+[
+  {
+    "test": "case0_normal",
+    "case": 0,
+    "inject": 0,
+    "hold_pair": 0,
+    "hold_cycles": 0,
+    "expected_error": null,
+    "simulator_exit": 0,
+    "verdict": "PASS",
+    "log": "case0_normal.run.log"
+  },
+  {
+    "test": "case1_normal",
+    "case": 1,
+    "inject": 0,
+    "hold_pair": 0,
+    "hold_cycles": 0,
+    "expected_error": null,
+    "simulator_exit": 0,
+    "verdict": "PASS",
+    "log": "case1_normal.run.log"
+  },
+  {
+    "test": "case2_normal",
+    "case": 2,
+    "inject": 0,
+    "hold_pair": 0,
+    "hold_cycles": 0,
+    "expected_error": null,
+    "simulator_exit": 0,
+    "verdict": "PASS",
+    "log": "case2_normal.run.log"
+  },
+  {
+    "test": "ab_first_cd_held",
+    "case": 0,
+    "inject": 0,
+    "hold_pair": 2,
+    "hold_cycles": 96,
+    "expected_error": null,
+    "simulator_exit": 0,
+    "verdict": "PASS",
+    "log": "ab_first_cd_held.run.log"
+  },
+  {
+    "test": "cd_first_ab_held",
+    "case": 0,
+    "inject": 0,
+    "hold_pair": 1,
+    "hold_cycles": 96,
+    "expected_error": null,
+    "simulator_exit": 0,
+    "verdict": "PASS",
+    "log": "cd_first_ab_held.run.log"
+  },
+  {
+    "test": "single_corruption_hart0",
+    "case": 0,
+    "inject": 1,
+    "hold_pair": 0,
+    "hold_cycles": 0,
+    "expected_error": null,
+    "simulator_exit": 0,
+    "verdict": "PASS",
+    "log": "single_corruption_hart0.run.log"
+  },
+  {
+    "test": "single_corruption_hart1",
+    "case": 0,
+    "inject": 2,
+    "hold_pair": 0,
+    "hold_cycles": 0,
+    "expected_error": null,
+    "simulator_exit": 0,
+    "verdict": "PASS",
+    "log": "single_corruption_hart1.run.log"
+  },
+  {
+    "test": "single_corruption_hart2",
+    "case": 0,
+    "inject": 3,
+    "hold_pair": 0,
+    "hold_cycles": 0,
+    "expected_error": null,
+    "simulator_exit": 0,
+    "verdict": "PASS",
+    "log": "single_corruption_hart2.run.log"
+  },
+  {
+    "test": "single_corruption_hart3",
+    "case": 0,
+    "inject": 4,
+    "hold_pair": 0,
+    "hold_cycles": 0,
+    "expected_error": null,
+    "simulator_exit": 0,
+    "verdict": "PASS",
+    "log": "single_corruption_hart3.run.log"
+  },
+  {
+    "test": "agreeing_pairs_conflict",
+    "case": 0,
+    "inject": 5,
+    "hold_pair": 0,
+    "hold_cycles": 0,
+    "expected_error": "CONFLICT",
+    "simulator_exit": 255,
+    "verdict": "PASS",
+    "log": "agreeing_pairs_conflict.run.log"
+  },
+  {
+    "test": "both_pairs_disagree",
+    "case": 0,
+    "inject": 6,
+    "hold_pair": 0,
+    "hold_cycles": 0,
+    "expected_error": "NO_AGREEMENT",
+    "simulator_exit": 255,
+    "verdict": "PASS",
+    "log": "both_pairs_disagree.run.log"
+  }
+]

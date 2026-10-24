@@ -1,0 +1,26 @@
+[
+  {
+    "test": "normal_control",
+    "verdict": "PASS",
+    "simulator_exit": 0,
+    "first_pair": null,
+    "first_value": null,
+    "log": "normal_control.run.log"
+  },
+  {
+    "test": "wrong_ab_first",
+    "verdict": "PASS",
+    "simulator_exit": 255,
+    "first_pair": 0,
+    "first_value": "0x13",
+    "log": "wrong_ab_first.run.log"
+  },
+  {
+    "test": "correct_cd_first",
+    "verdict": "PASS",
+    "simulator_exit": 255,
+    "first_pair": 1,
+    "first_value": "0x12",
+    "log": "correct_cd_first.run.log"
+  }
+]
