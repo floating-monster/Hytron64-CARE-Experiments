@@ -2,7 +2,7 @@
 
 **CARE: Context-Agreement Redundant Execution**
 
-Experimental four-core CARE-2P observation and selection logic for
+Experimental four-core CARE-2P(smp2x2) observation and selection logic for
 Chipyard Small Rocket cores. Pairs are (hart0, hart1) and (hart2, hart3).
 This is a pair-agreement selector, not a four-input majority voter.
 
